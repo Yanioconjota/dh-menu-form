@@ -1,0 +1,177 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow-y: scroll;
+  font-family: 'Lato', sans-serif;
+  color: #222;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #222;
+}
+
+p, a {
+  font-weight: 400;
+}
+
+ul li {
+  list-style: none;
+}
+
+nav, header, footer, section, article {
+  display: block;
+  float: left;
+}
+
+nav, section {
+  padding: 15px;
+}
+
+header, footer {
+  width: 100%;
+  margin-top: 20px;
+}
+
+header {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+header h1 {
+  margin-bottom: 20px;
+}
+
+header h2 {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header h2, header a {
+  font-weight: bold;
+}
+
+nav {
+  width: 300px;
+  float: left;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+main {
+      width: 950px;
+      margin: auto;
+      display: block;
+      border: 1px solid gray;
+      box-sizing: border-box;
+      overflow: hidden;
+      padding: 20px;
+      margin-top: 25px;
+}
+
+section {
+   width: 600px;
+   float: left;
+   border-left: 1px solid gray;
+}
+
+section img {
+  width: 40%;
+  float: right;
+}
+
+section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.scroll-top {
+  display: block;
+  float: left;
+}
+
+section .scroll-top {
+  width: 100%;
+}
+
+section a {
+  background-color: rgb(228, 225, 53);
+  padding: 10px;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  width: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+article {
+  margin-bottom: 30px;
+  width: 60%;
+}
+
+#encuesta {
+  width: 900px;
+  display: block;
+  margin: auto;
+  border: 0;
+}
+
+#encuesta h4 {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#encuesta textarea {
+  width: 100%;
+  resize: none;
+}
+
+#encuesta input[type=submit] {
+  background-color: rgb(228, 225, 53);
+  outline: 0;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  padding: 0 2px;
+}
+
+
+footer {
+  padding: 20px;
+  border-top: 1px solid rgb(182, 182, 182);
+}
+
+footer img {
+  width: 90px;
+  float: left;
+}
